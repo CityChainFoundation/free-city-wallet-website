@@ -1,0 +1,105 @@
+{
+  "configVersion": 1,
+  "timestamp": 1736333611820,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/angular_src_app_modules_options_options_module_ts.js",
+        "/angular_src_app_modules_popup_popup_module_ts.js",
+        "/angular_src_app_modules_tab_tab_module_ts.js",
+        "/index.html",
+        "/main.js",
+        "/manifest.webmanifest",
+        "/polyfills.js",
+        "/runtime.js",
+        "/styles.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/i18n/ar.json",
+        "/assets/i18n/el.json",
+        "/assets/i18n/en.json",
+        "/assets/i18n/fa.json",
+        "/assets/i18n/fr.json",
+        "/assets/i18n/he.json",
+        "/assets/i18n/no.json",
+        "/assets/i18n/ru.json",
+        "/assets/icon-128x128.png",
+        "/assets/icon-16x16.png",
+        "/assets/icon-32x32.png",
+        "/assets/icon-48x48.png",
+        "/assets/icon-512x512.png",
+        "/assets/icon-light-128x128.png",
+        "/assets/screenshot-1280x800-01.png",
+        "/assets/screenshot-750x1334-02.png",
+        "/material-icons-base-400-normal.woff",
+        "/material-icons-base-400-normal.woff2"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/angular_src_app_modules_options_options_module_ts.js": "5bbbcbd400c157f29803c3d18fc05f84ef58cfd5",
+    "/angular_src_app_modules_popup_popup_module_ts.js": "05fd141dbf30f7f487af2a24c9426803abcf2c5d",
+    "/angular_src_app_modules_tab_tab_module_ts.js": "ce0889002a133cfddcab5a1a8da0926389240096",
+    "/assets/i18n/ar.json": "50e86841db5090dc10deb8e9806be2058d907cad",
+    "/assets/i18n/el.json": "6f4017b4cfb25f7d09236333b9984ec1b0e92c14",
+    "/assets/i18n/en.json": "5636684a19b3e475e32a3c368967609eb1a5224d",
+    "/assets/i18n/fa.json": "4e06e0b42766a0bfa606bca7a914bf40664f7837",
+    "/assets/i18n/fr.json": "b6e7a0fcdb3b081de3bf287e330c923d4afdd203",
+    "/assets/i18n/he.json": "9951e7d5a4aa12525b3a3ef3054cf48b3bed54fe",
+    "/assets/i18n/no.json": "f4c825047bc1290c2e5b6adb9b9658fd2969e1c0",
+    "/assets/i18n/ru.json": "d38d46458fa41f8d7087d3844845dd22dafa3454",
+    "/assets/icon-128x128.png": "c226630b195a4ea7292df8bdf86a6c0e05bffcbd",
+    "/assets/icon-16x16.png": "fdb246c9c6f4248d07a6234af60a5e5cfbb93f44",
+    "/assets/icon-32x32.png": "0ea65b0fe9a4701840af438276e5d15a1e604880",
+    "/assets/icon-48x48.png": "8fc86071cc5106950afa60295c918e73e02b2d44",
+    "/assets/icon-512x512.png": "61f309e46970ab479fa7b5259ccb3afe136a8d6d",
+    "/assets/icon-light-128x128.png": "c226630b195a4ea7292df8bdf86a6c0e05bffcbd",
+    "/assets/screenshot-1280x800-01.png": "a5cbc6e1db3a7aa123c1e64f7d81926e6e33a188",
+    "/assets/screenshot-750x1334-02.png": "198a541bca661307c1a3daaad9cc6db618b02153",
+    "/index.html": "157618aa1a046f706ca98dae6e255b77ba218d5d",
+    "/main.js": "7f9ee0b2b01511a961ae070ecb76d5ee959f1912",
+    "/manifest.webmanifest": "104c7f79933ccd15fd536adf18289eb1c8baf4df",
+    "/material-icons-base-400-normal.woff": "6e4299698a545c9cf5798fdbb3dd2e0350b41ae4",
+    "/material-icons-base-400-normal.woff2": "c8de67e55036ce9ed7844c9a010a0c4cd5dfc54b",
+    "/polyfills.js": "30a7cbccc40b95aad248d2499ea95f0c51cc6a4e",
+    "/runtime.js": "0dd3ff41286b954d5549b037f0833c0cdb43a1a0",
+    "/styles.css": "967dc8b6e6f2748262285787712bd2e80faa8513"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
